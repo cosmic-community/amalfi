@@ -47,6 +47,7 @@ export default function Footer() {
             <li><Link href="/locations" className="hover:text-amalfi-lemon transition-colors">Locations</Link></li>
             <li><Link href="/reviews" className="hover:text-amalfi-lemon transition-colors">Reviews</Link></li>
             <li><Link href="/about" className="hover:text-amalfi-lemon transition-colors">About</Link></li>
+            <li><Link href="/contact" className="hover:text-amalfi-lemon transition-colors">Contact</Link></li>
           </ul>
         </div>
         <div>
