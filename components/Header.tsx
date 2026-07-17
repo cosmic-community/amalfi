@@ -7,6 +7,7 @@ export default function Header() {
     { href: '/locations', label: 'Locations' },
     { href: '/reviews', label: 'Reviews' },
     { href: '/about', label: 'About' },
+    { href: '/contact', label: 'Contact' },
   ]
 
   return (
