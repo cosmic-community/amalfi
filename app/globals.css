@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --amalfi-sea: #0d6e8c;
+  --amalfi-cream: #fdf8ef;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--amalfi-cream);
+  color: #1f2b30;
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer components {
+  .container-amalfi {
+    @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
